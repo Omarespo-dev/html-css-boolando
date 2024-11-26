@@ -5,23 +5,49 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* REGOLE HEADER */
 
-
-.container-header{
+header{
     background-color: orange;
     height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.container-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
 }
 
 
-/* regole Main */
-
-main{
-    /* margin-left: 150px; */
-    /* margin-right: 150px; */
-    /* padding: 100px; */
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    height: 50px;
+    width: 77%;
+    margin-top: 15px;
 }
 
 
+
+#header-text{
+    text-align: left;
+    margin-top: 15px;
+    color: white;
+}
+
+.icon{
+    margin-top: 15px;
+}
+
+
+/* REGOLE MAIN */
 
 .container-main{
     display: flex;
@@ -29,7 +55,7 @@ main{
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
-    margin-top: 60px;
+    margin-top: 10%;
     
 }
 
@@ -39,7 +65,7 @@ main{
     /* background-color: gray; */
     /*DEBUG */ 
     /* height: 850px; */
-    border: solid 2px black;
+    /* border: solid 2px black; */
 
 }
 
@@ -74,7 +100,7 @@ main{
 
 
 
-
+/* REGOLE FOOTER */
 
 footer {
     background-color: black;
