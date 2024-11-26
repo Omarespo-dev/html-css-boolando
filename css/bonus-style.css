@@ -125,17 +125,17 @@ main{
     right: 0;
 }
 
-/* .heart-1{ */
-    /* padding: 10px 20px; */
-    /* background-color:white; */
-    /* font-size: 40px; */
-    /* position: absolute; */
-    /* color: red; */
-    /* top: 20px; */
-    /* right: 0; */
-    /* display: none; */
-    /* z-index: 20; */
-/* } */
+.heart-1{
+    padding: 10px 20px;
+    background-color:white;
+    font-size: 40px;
+    position: absolute;
+    color: red;
+    top: 20px;
+    right: 0;
+    display: none;
+    z-index: 20;
+}
 .blocchi:hover .heart-1{
     display: block;
 }
