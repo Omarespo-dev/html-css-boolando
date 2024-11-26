@@ -104,14 +104,64 @@ header{
 
 footer {
     background-color: black;
-    /* DEBUG */
-    height: 200px;
+    height: 100px;
     margin-top: 5%;
+    width: 100%;
 }
+
+.container-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
 
 .footer-text{
-
-
+    color: white;
+    align-items: flex-start;
+    width: 77%;
+    display: flex;
+    flex-direction: row;
 
 }
 
+.p-footer{
+    width: 11%;
+}
+
+
+
+.icon-footer{
+    margin-top: 10px;
+}
+
+.boolean-srl{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.fa-square-twitter{
+    padding: 0 7px;
+}   
+
+.fa-square-facebook{
+    padding: 0 7px;
+}
+
+.fa-square-instagram{
+    padding: 0 7px;
+}
+
+.fa-square-pinterest{
+    padding: 0 7px;
+}
+
+.fa-square-youtube{
+    padding: 0 7px;
+}
