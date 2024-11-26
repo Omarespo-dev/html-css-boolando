@@ -46,9 +46,22 @@ header{
     margin-top: 15px;
 }
 
+.fa-user{
+    padding: 0 7px;
+}
+
+.fa-heart{
+    padding: 0 7px;
+}
+
+.fa-bag-shopping{
+    padding: 0 7px;
+}
 
 /* REGOLE MAIN */
-
+main{
+    margin-bottom: 10%;
+}
 .container-main{
     display: flex;
     flex-direction: row;
@@ -66,8 +79,42 @@ header{
     /*DEBUG */ 
     /* height: 850px; */
     /* border: solid 2px black; */
-
+    position: relative;
+    
 }
+
+.discount-label{
+    padding: 5px;
+    background-color: red;
+    font-size: 20px;
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    color: white;
+    
+}
+
+
+.sostenibilita{
+    padding: 5px 10px;
+    background-color: green;
+    font-size: 20px;
+    position: absolute;
+    color: white;
+    bottom: 100px;
+    left: 60px;
+}
+
+.sostenibilita-1{
+    padding: 5px 10px;
+    background-color: green;
+    font-size: 20px;
+    position: absolute;
+    color: white;
+    bottom: 100px;
+    left: 0;
+}
+
 
 
 
@@ -107,6 +154,9 @@ footer {
     height: 100px;
     margin-top: 5%;
     width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
 
 .container-footer{
@@ -165,3 +215,5 @@ footer {
 .fa-square-youtube{
     padding: 0 7px;
 }
+
+
